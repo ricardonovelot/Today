@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C7B24022C62A083001CD74E /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B24012C62A083001CD74E /* Date+Today.swift */; };
+		8C7B24052C62A74F001CD74E /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B24042C62A74F001CD74E /* ReminderListViewController+DataSource.swift */; };
 		AAD0598828EC8D10004F4962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0598728EC8D10004F4962 /* AppDelegate.swift */; };
 		AAD0598A28EC8D10004F4962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0598928EC8D10004F4962 /* SceneDelegate.swift */; };
 		AAD0598C28EC8D10004F4962 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0598B28EC8D10004F4962 /* ReminderListViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C7B24012C62A083001CD74E /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		8C7B24042C62A74F001CD74E /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 		AAD0598428EC8D10004F4962 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD0598728EC8D10004F4962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAD0598928EC8D10004F4962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C7B24032C62A708001CD74E /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0598B28EC8D10004F4962 /* ReminderListViewController.swift */,
+				8C7B24042C62A74F001CD74E /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
 		AAD0597B28EC8D10004F4962 = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +80,10 @@
 		AAD0598628EC8D10004F4962 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				8C7B24032C62A708001CD74E /* ListViewController */,
 				AAD059C228ECBFAA004F4962 /* Models */,
 				AAD0598728EC8D10004F4962 /* AppDelegate.swift */,
 				AAD0598928EC8D10004F4962 /* SceneDelegate.swift */,
-				AAD0598B28EC8D10004F4962 /* ReminderListViewController.swift */,
 				AAD0598D28EC8D10004F4962 /* Main.storyboard */,
 				AAD0599028EC8D12004F4962 /* Assets.xcassets */,
 				AAD0599228EC8D12004F4962 /* LaunchScreen.storyboard */,
@@ -92,6 +105,7 @@
 			children = (
 				AAD059C328ECC017004F4962 /* Reminder.swift */,
 				AAD059CA28ECD992004F4962 /* UIColor+Today.swift */,
+				8C7B24012C62A083001CD74E /* Date+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,6 +185,8 @@
 				AAD0598C28EC8D10004F4962 /* ReminderListViewController.swift in Sources */,
 				AAD0598828EC8D10004F4962 /* AppDelegate.swift in Sources */,
 				AAD059CB28ECD992004F4962 /* UIColor+Today.swift in Sources */,
+				8C7B24022C62A083001CD74E /* Date+Today.swift in Sources */,
+				8C7B24052C62A74F001CD74E /* ReminderListViewController+DataSource.swift in Sources */,
 				AAD0598A28EC8D10004F4962 /* SceneDelegate.swift in Sources */,
 				AAD059C428ECC017004F4962 /* Reminder.swift in Sources */,
 			);
@@ -322,6 +338,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PKHC34MY2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Today/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -334,7 +351,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Today";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardo.Today;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -350,6 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PKHC34MY2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Today/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -362,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Today";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardo.Today;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
