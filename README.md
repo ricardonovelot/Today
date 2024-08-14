@@ -1,4 +1,4 @@
-# Today
+# Today App
 
 ## About
 
