@@ -1,11 +1,6 @@
-# Displaying Cell Info
+# Today
 
-## Starting Project
+## About
 
-Use this project to code along with [Displaying Cell Info](https://developer.apple.com/tutorials/app-dev-training/displaying-cell-info).
-
-## Change Log
-
-* Added colors to the asset catalog.
-* Added a UIColor extension with named color properties.
+The Today App was developed as part of the UIKit Apple Development Tutorials. To better organize the project, each section has been split into separate repositories based on the course structure. You can explore them here:
 
